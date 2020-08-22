@@ -23,6 +23,10 @@ class _PageGridViewState extends State<PageGridView> {
       appBar: AppBar(
         title: Text('Page Grid View'),
         backgroundColor: Colors.lightBlue,
+        actions: <Widget>[
+          new IconButton(icon: Icon(Icons.menu), onPressed: () {},),
+          new IconButton(icon: Icon(Icons.home), onPressed: () {},)
+        ],
       ),
       body: new GridView.builder(
         gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),
