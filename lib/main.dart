@@ -9,6 +9,9 @@ import 'navigateClass/body.dart';
 // Widget Container
 import 'widgetContainer/body.dart';
 
+// Row and Column
+import 'rowColumn/body.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -21,7 +24,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PageWidgetContainer(), // Widget Container
+      home: PageRowColumn(), // Row and Column
+      // home: PageWidgetContainer(), // Widget Container
       // home: PageUtama(), // Navigate Class
       // home: PageStateFull(), // StateLess and stateFull
       debugShowCheckedModeBanner: false
