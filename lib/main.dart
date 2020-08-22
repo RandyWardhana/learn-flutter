@@ -13,6 +13,7 @@ import 'containerWidget/body.dart';
 import 'rowColumn/body.dart';
 
 // List Widget
+// List Widget Array
 import 'listWidget/body.dart';
 
 void main() {
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
       // home: PageUtama(), // Navigate Class
       // home: PageContainerWidget(), // Container Widget
       // home: PageRowColumn(), // Row and Column
-      home: PageList(), // List Widget
+      // home: PageList(), // List Widget
+      home: PageListWidget(), // List Widget Array
       debugShowCheckedModeBanner: false
     );
   }
