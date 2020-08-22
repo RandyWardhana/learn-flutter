@@ -16,6 +16,9 @@ import 'rowColumn/body.dart';
 // List Widget Array
 import 'listWidget/body.dart';
 
+// Grid View
+import 'gridView/body.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -33,7 +36,8 @@ class MyApp extends StatelessWidget {
       // home: PageContainerWidget(), // Container Widget
       // home: PageRowColumn(), // Row and Column
       // home: PageList(), // List Widget
-      home: PageListWidget(), // List Widget Array
+      // home: PageListWidget(), // List Widget Array
+      home: PageGridView(), // Grid View
       debugShowCheckedModeBanner: false
     );
   }
