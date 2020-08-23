@@ -19,6 +19,9 @@ import 'listWidget/body.dart';
 // Grid View
 import 'gridView/body.dart';
 
+// Tab Bar
+import 'tabBar/body.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -37,7 +40,8 @@ class MyApp extends StatelessWidget {
       // home: PageRowColumn(), // Row and Column
       // home: PageList(), // List Widget
       // home: PageListWidget(), // List Widget Array
-      home: PageGridView(), // Grid View
+      // home: PageGridView(), // Grid View
+      home: PageTabBar(), // Tab Bar
       debugShowCheckedModeBanner: false
     );
   }
